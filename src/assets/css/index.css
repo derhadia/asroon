@@ -1,0 +1,233 @@
+
+@font-face {
+    font-family: Shabnam;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff2') format('woff2'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Shabnam;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.woff2') format('woff2'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Shabnam;
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.eot');
+    src: url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.woff2') format('woff2'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.woff') format('woff'),
+    url('https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+* {
+    font-family: Shabnam, serif;
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.dir-col {
+    flex-direction: column;
+}
+.mtb-30 {
+    margin: 30px 0;
+}
+.pointer {
+    cursor: pointer;
+}
+.w-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+.gray {
+    background-color: #E5E5E5;
+}
+.red {
+    color: #fa2020;
+}
+.icon-add {
+    margin-left: 9px;
+}
+.white {
+    background-color: #fff;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    margin: 0 auto;
+}
+th, td {
+    padding: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-left: none;
+    font-size: 12px;
+    color: #666464
+}
+th {
+    background-color: rgba(219, 219, 219, 0.08);;
+}
+.btn {
+    width: 159px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.outlined-btn {
+    color: #DE2D26;
+    outline: #DE2D26;
+    background-color: #FFFFFF;
+    border: 1px solid #DE2D26;
+    margin-left: 8px;
+}
+
+.contained-btn {
+    color: #FFFFFF;
+    background-color: #DE2D26;
+    border: none;
+}
+
+.btn:hover {
+    opacity: .5;
+    transition: 500ms;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(219, 219, 219, 0.4);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+    width: 432px;
+    min-height: 480px;
+    margin: 0 auto 50px;
+}
+.full-w-btn {
+    width: 100%;
+    height: 48px;
+    margin-top: 16px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1E1B1B;
+    margin: 17px 16px 22px 16px;
+}
+
+form {
+    margin: 17px 16px 22px 16px;
+}
+
+label {
+    color: #666464;
+    opacity: .68;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+
+input {
+    border: 1px solid rgba(102, 100, 100, 0.64);
+    border-radius: 4px;
+    height: 48px;
+    padding: 5px;
+    color: #666464;
+    opacity: .68;
+}
+.during-popup{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.PopUp{
+    position: fixed;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #011627;
+    padding: 16px 22px;
+}
+.title-popup span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #666464;
+}
+
+.content-popup p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #666464;
+    margin: 24px 0;
+}
